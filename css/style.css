@@ -1,0 +1,113 @@
+/* font family start */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+/* font family end */
+
+/* common css start */
+:root{
+	--pop: "Poppins",sans-serif;
+	--rob:"Roboto", sans-serif;
+    --black:#576250;
+    --white:#FFFFFF;
+}
+
+body{
+font-family:var(--pop);
+font-size: 16px;
+font-weight: 400;
+color: var(--black);
+}
+/* common css end */
+
+/* header start */
+header{
+    padding: 12px 0;	
+	background-image: url(../images/banner.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.m_nav{}
+.logo{}
+.menu{}
+.menu ul li a{
+    color: var(--black) !important;
+    padding: 0 20px !important;
+}
+.menu ul li a:hover{
+  color: var(--white) !important;	
+}
+/* header end */
+
+/* banner start */
+.banner{
+	background-image: url(../images/banner.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.slider{
+	margin: 300px 0 550px;
+}
+.h1{
+	margin-top: 100px;
+	margin-bottom: 550px;
+	text-align: center;
+}
+.p{}
+/* banner end */
+
+/* location start */
+.c_pb{
+	padding-bottom: 50px;
+}
+.c_title{}
+.c_shape{}
+.h1{}
+.p{}
+/* location end */
+
+/*  feature section start */
+.p{
+	text-align: center;
+}
+
+/* feature section end */
+
+/* feature venues start */
+.venues{}
+.venues_img{
+}
+.venues_text{}
+.v_h2{
+font-weight: 700;
+line-height: 40px;
+}
+.v_p{
+font-family: var(--rob) !important;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+}
+/* feature venues end */
+
+/* service start */
+/* service end */
+
+/* portfolio start */
+.p_t{
+font-size: 20px;
+font-weight:500;
+line-height:16 px;
+}
+.p_i{
+	font-size: 12px;
+}
+
+/* portfolio end */
+
+ /* footer start */
+ .footer{
+ color: black !important;
+ }
+  /* footer end */
